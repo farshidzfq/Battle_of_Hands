@@ -1,4 +1,57 @@
-# Battle_of_Hands
- rock_paper_scissors
+````markdown
+# Rock Paper Scissors - Kivy App
 
- **"Battle of Hands"** یک بازی جذاب و کلاسیک سنگ، کاغذ، قیچی است که با طراحی مدرن و رابط کاربری زیبا تجربه‌ای تازه و سرگرم‌کننده را برای کاربران فراهم می‌کند. این اپلیکیشن با استفاده از تصاویر با کیفیت بالا و انیمیشن‌های روان، حس واقعی رقابت را به کاربر القا می‌کند. طراحی بصری منحصربه‌فرد، همراه با افکت‌های صوتی هیجان‌انگیز، تجربه‌ای فراگیر ایجاد می‌کند که کاربران را در هر سنی به خود جذب می‌کند. در "Battle of Hands"، کاربر با انتخاب از میان سنگ، کاغذ و قیچی، در یک نبرد استراتژیک و سرگرم‌کننده با رایانه به چالش کشیده می‌شود و هر بار نتیجه بازی با نمایش گرافیکی زیبا و صدای مناسب، لذت بازی را چند برابر می‌کند. این نرم‌افزار به گونه‌ای طراحی شده است که علاوه بر سادگی و سهولت استفاده، تجربه‌ای شگفت‌انگیز و بی‌نظیر از یک بازی کلاسیک را در قالبی مدرن و حرفه‌ای ارائه دهد.
+A simple and interactive **Rock, Paper, Scissors** game built with the [Kivy](https://kivy.org/#home) framework in Python. This app features clickable image buttons, animations, and sound effects to deliver an engaging user experience.
+
+## Features
+
+- Intuitive GUI with image buttons for Rock, Paper, and Scissors
+- Button animations on press to provide visual feedback
+- Randomized computer choice each round
+- Sound effects for selection, win, and lose outcomes
+- Result display showing computer’s choice and game result
+- Easy to extend and customize
+
+## Requirements
+
+- Python 3.x
+- Kivy framework
+
+## Installation
+
+Install Kivy using pip:
+
+```bash
+pip install kivy
+````
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/RockPaperScissors-KivyApp.git
+cd RockPaperScissors-KivyApp
+```
+
+## Running the App
+
+Run the main Python script:
+
+```bash
+python main.py
+```
+
+## Usage
+
+* Click on Rock, Paper, or Scissors image button to make your move
+* The computer will randomly pick its move
+* The result will be displayed below the buttons along with sound feedback
+
+## Future Enhancements
+
+* Add score tracking between player and computer
+* Implement multiplayer or network play
+* Add background music and more polished UI
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
