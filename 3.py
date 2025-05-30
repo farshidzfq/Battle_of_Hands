@@ -11,13 +11,13 @@ from kivy.uix.popup import Popup
 from kivy.core.audio import SoundLoader
 from random import choice
 
-# دکمه تصویری با قابلیت کلیک
+# Image button with clickable behavior
 class ImageButton(ButtonBehavior, Image):
     pass
 
 class RockPaperScissorsApp(App):
     def build(self):
-        Window.clearcolor = (0.15, 0.15, 0.2, 1)  # تنظیم رنگ پس‌زمینه
+        Window.clearcolor = (0.15, 0.15, 0.2, 1)  # Set background color
         
         layout = BoxLayout(orientation='vertical', padding=20, spacing=10)
         
